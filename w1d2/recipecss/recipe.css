@@ -55,7 +55,7 @@ a:hover {
   padding: 5px;
 }
 
-ul.leaf {
+.leaf {
   list-style-image: url("recipeImages/pie_icon.gif");
 }
 
