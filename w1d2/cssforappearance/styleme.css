@@ -1,23 +1,25 @@
 body {
     background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
   }
 
 #pnote {
 font-style: italic;
-font-size: small;
-font-family: 'Times New Roman', Times, serif;
+font-size: medium;
 }
 
 #pname{
-  font-size: large;
-  font-family: 'Times New Roman', Times, serif;
-  }
+      font-size: 20px;
+    }
 
-ol,ul {
-  font-size: 19px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+ul {
+  font-size: 15px;
+ }
+
+ol {
+  font-size: 14px;
+ }
 
 strong {
   color: yellow;
@@ -27,9 +29,10 @@ a{
   color: red;
 }
 
-h1,h2,h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1,
+h2,
+h3 {
   font-weight: bold;
-  color: cornflowerblue;
+  color: lightslategrey;
   }
 
