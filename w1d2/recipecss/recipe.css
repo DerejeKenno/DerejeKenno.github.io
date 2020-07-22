@@ -56,7 +56,7 @@ a:hover {
 }
 
 ul.leaf {
-  list-style-image: url('recipeImages/pie_icon.gif');
+  list-style-image: url("recipeImages/pie_icon.gif");
 }
 
 pre {
