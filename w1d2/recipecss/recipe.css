@@ -22,7 +22,7 @@ h1 {
 body {
   color: #404040;
   background-color: white;
-  background-image:url("recipeImages/silverware.jpg"),url("recipeImages/background.gif")
+  background-image:url("recipeImages/silverware.jpg"),url("recipeImages/background.gif");
   background-repeat: repeat;
   background-attachment: fixed;
   font-size: 11pt;
