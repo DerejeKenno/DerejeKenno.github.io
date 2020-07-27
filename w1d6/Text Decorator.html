@@ -15,7 +15,7 @@
     <script src="./Text Decorator_files/jquery.min.js.download" type="text/javascript"></script>
 
     <!-- link to your script file here -->
-    <script src="decoratemytext.jss"></script>
+    <script src="decoratemytext.js"></script>
 </head>
 
 <body class="bdy">
@@ -35,10 +35,24 @@
 
     <fieldset id="Decoration" style="width: 300px;">
         <legend>Decoration</legend>
-        <button type="button" onclick="fontByTime()">Bigger Decorations!</button>
+        <button id="btn" type="button">Bigger Decorations!</button>
         <br>
-        <label for="bling"><input id="chkbling" type="checkbox" onchange="boldit()">Bling</label>
+        <label for="bling"><input id="chkbling" type="checkbox">Bling</label>
     </fieldset>
+
+    <div id="vldlinks">
+        <a href="../index.html"> Home</a><br><br>
+
+        <a href="https://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a><br>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS!" width="70" height="41" /></a><br>
+
+        <a href="http://webster.cs.washington.edu/jslint?referer">
+            <img src="resources/w3c-js.jpg" alt="JavaScript Lint" />
+        </a>
+
+    </div>
 
 
 </body>

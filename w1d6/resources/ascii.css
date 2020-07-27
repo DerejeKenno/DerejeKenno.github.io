@@ -1,0 +1,43 @@
+body {
+    background-color: #ccccff;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32pt;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 400px;
+    text-align: left;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+fieldset {
+    border: 5px solid black;
+    display: inline;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#fldset {
+    margin-left: 130px;
+}
+
+#vldlinks {
+    width: 300px;
+    border: 2px solide black;
+    margin-left: 90%;
+}
