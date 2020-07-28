@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="formcss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Regular Expressions Lab</title>
+</head>
+
+<body>
+    <form id="email">
+        <div id="containerdiv">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[\w\W]{10,}" title="Please password field needs to be at least
+                 10 characters in length and contain at least
+                 one number and one uppercase and lowercase letter">
+            </div>
+            <div class="form-group">
+                <label for="exampleUrlInput">url</label>
+                <input type="url" class="form-control" id="exampleUrlInput" pattern="https?://.+" title="Please URL field needs 
+            to be a website url, and you must enter it beginning with either the string, &quot;
+                http:// &quot; or &quot; https:// &quot;">
+                <small id="urlHelp" class="form-text text-muted">Write a url to check for validity</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
+    <div id="vldlinks">
+        <a href="../index.html"> Home</a><br><br>
+
+        <a href="https://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a><br>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS!" width="70" height="41" /></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0147)https://sakai.cs.miu.edu/access/content/attachment/f798bd25-b7b8-4f8f-b27f-87da2be56810/Assignments/d2ebe0f9-5807-4de2-ad6d-687fa85be801/index.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Functional programming lab</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+
+    <script src="resources/JsfunctionalProg.js"></script>
+    <script src="resources/tests.js"></script>
+
+</head>
+
+<body>
+    <div id="mocha">
+    </div>
+    <script>
+        mocha.run();
+    </script>
+
+
+    <div id="vldlinks" style="width: 300px; margin-left: 90%;">
+        <a href="../index.html"> Home</a><br><br>
+
+        <a href="https://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a><br>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS!" width="70" height="41" /></a>
+    </div>
+</body>
+
+</html>
