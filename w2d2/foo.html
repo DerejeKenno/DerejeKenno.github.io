@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <Script>
+        const count = (function() {
+            let counter = 0;
+            return {
+                add: function() {
+                    counter += 1;
+                },
+                reset: function() {
+                    counter = 0;
+                }
+            };
+        });
+    </Script>
+</head>
+
+<body>
+    <p> Console</p>
+    <input type="button" id="count" value="addcount" onclick="count()">
+    <intput type="text" id="count"></intput>
+    <script>
+        main();
+    </script>
+</body>

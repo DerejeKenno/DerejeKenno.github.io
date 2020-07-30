@@ -1,0 +1,71 @@
+6. var count=(function() {
+             var counter = 0;
+             const addcount = function add(){
+                count += 1;
+             };
+             const resetcount=function reset() {
+               count = 0;
+             };
+            
+            return{
+                   add:addcount,
+                   reset:resetcount
+             };
+        })();
+
+
+7. Free Variable is counter. Free variables are those that are neither locally declared nor passed as a parameter, and these are
+    Variables that the function takes (read and write) in the enclosing scope where is declared the closure or in a parent scope.
+
+8. let make_adder = function (inc) {
+      let counter = 0;
+      return function add() {
+         counter += inc;
+      }
+  }
+
+9.Using IIFE Module Pattern. The module pattern helps to reduce many golobal function and variable names to fewer ones.Because we can declare and immediately call anonymous functions.
+
+10.const employee = (function () {
+    let name;
+    let age;
+    let salary;
+
+    const getAge = function () {
+        return age;
+    };
+
+    const getSalary = function () {
+        return salary;
+    };
+
+    const getName = function () {
+        return name;
+    };
+    return {
+        setAge: function (newAge) {
+            age = newAge;
+        },
+        setSalary: function (newSalary) {
+            salary = newSalary;
+        },
+        setName: function (newName) {
+            name = newName;
+        },
+        increaseSalary: function (percentage) {
+            salary += (getSalary() * percentage);
+        },
+        incrementAge: function () {
+            age = getAge() + 1;
+        }
+     }
+})();
+
+11. employee.address;
+     employee.setAddress = function (newAddress) {
+         this.address = newAddress;
+     };
+    employee.getAddress = function () {
+       return this.address;
+    };
+   
