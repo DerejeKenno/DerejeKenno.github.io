@@ -1,0 +1,55 @@
+#canvas {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    background-image: url(bgimage.jpg);
+    overflow: auto;
+}
+
+.bubble {
+    border-radius: 50%;
+    position: relative;
+}
+
+#controlls {
+    position: fixed;
+    top: 10px;
+    right: 5px;
+    width: 180px;
+    height: auto;
+    margin: auto;
+    box-sizing: content-box;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.inputs {
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-weight: bolder;
+}
+
+.fields {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.startstop {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+}
+
+#start:hover {
+    background-color: #4095c6;
+    color: #ffffff
+}
+
+#stop:hover {
+    background-color: #4095c6;
+    color: #ffffff
+}

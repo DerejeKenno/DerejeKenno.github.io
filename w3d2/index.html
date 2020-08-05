@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <title>Clean Screen Lab</title>
+</head>
+
+<body>
+    <div id="canvas">
+        <div id="controlls">
+            <label for="Width" class="inputs">WIDTH</label><br />
+            <input type="number" name="Width" class="fields" step="50" default="50" id="width" value="50" />
+            <label for="GrowthAmount" class="inputs">GROWTH AMOUNT</label><br />
+            <input type="number" name="GrowthAmount" class="fields" step="10" id="growthAmount" value="10" />
+            <label for="GrowthRate" class="inputs">GROWTH RATE</label><br />
+            <input type="number" name="GrowthRate" class="fields" step="250" id="growthRate" value="250" />
+            <label for="NumberOfBubbles" class="inputs">NUMBER OF CIRCLES</label><br />
+            <input type="number" name="NumberOfBubbles" class="fields" step="2" id="numberOfBubbles" value="10" />
+            <div class="startstop">
+                <button id="start" class="starter">Start</button>
+                <button id="stop" class="starter">Stop</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
